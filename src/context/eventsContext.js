@@ -32,8 +32,8 @@ const EventsProvider = ({ children }) => {
     )
 }
 
-function useEvents() {
+function useEventsData() {
     return useContext(EventsContext);
 }
 
-export { EventsProvider, EventsContext, useEvents }
+export { EventsProvider, EventsContext, useEventsData }
