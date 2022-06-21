@@ -1,5 +1,5 @@
 import './App.css';
-import { EventsProvider } from './context/events';
+import { EventsProvider } from './context/eventsContext';
 import Router from './router/Router';
 
 function App() {
