@@ -1,6 +1,6 @@
 import './App.css';
 import { EventsProvider } from './context/events';
-import { Router } from 'react-router-dom';
+import Router from './router/Router';
 
 function App() {
   return (
